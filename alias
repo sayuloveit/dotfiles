@@ -1,0 +1,17 @@
+# Useful aliases
+
+# Force ls to use colors (G) and use humanized file sizes (h)
+alias ls='ls -lGFhtr'
+
+# Echo all executable Paths formatted
+alias path='echo -e ${PATH//:/\\n}'
+
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+alias be='bundle exec'
+
+alias c='clear'
+
+alias gitl="git log --pretty=format:'%h - %an, %ar : %s' --graph"
+
+alias python='python3.5'
